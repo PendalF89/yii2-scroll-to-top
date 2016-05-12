@@ -1,0 +1,11 @@
+.scroll-to-top {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    overflow: hidden;
+
+    &.affix-top {
+        position: absolute; /* allows it to "slide" up into view */
+        bottom: -82px; /* negative of the offset - height of link element */
+    }
+}
