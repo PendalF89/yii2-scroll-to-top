@@ -1,0 +1,17 @@
+{
+    "name": "pendalf89/yii2-scroll-to-top",
+    "description": "Yii2 scroll to top",
+    "type": "yii2-extension",
+    "license": "GNU GPLv2",
+    "authors": [
+        {
+            "name": "PendalF",
+            "email": "pendalf@mail.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "pendalf89\\scroll\\": ""
+        }
+    }
+}
