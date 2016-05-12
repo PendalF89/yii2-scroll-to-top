@@ -1,7 +1,7 @@
 # yii2-scroll-to-top
 =============
 
-This is simple scroll to top plugin.
+Add scroll to top element on the page.
 
 Installation
 ------------
