@@ -19,7 +19,7 @@ class ScrollToTop extends Widget
 	/**
 	 * @var array html attributes
 	 */
-	public $options = ['class' => 'scroll-to-top'];
+	public $options = ['class' => 'scroll-to-top scroll-to-top--hidden'];
 
 	/**
 	 * @inheritdoc
