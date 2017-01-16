@@ -5,7 +5,7 @@
 
     if (($(window).height() + 100) < $(document).height()) {
         $('.scroll-to-top')
-            .removeClass('hidden')
+            .removeClass('scroll-to-top--hidden')
             .affix({
                 // how far to scroll down before link "slides" into view
                 offset: {top: 100}
