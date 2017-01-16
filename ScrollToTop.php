@@ -19,7 +19,7 @@ class ScrollToTop extends Widget
 	/**
 	 * @var array html attributes
 	 */
-	public $options = [];
+	public $options = ['class' => 'scroll-to-top'];
 
 	/**
 	 * @inheritdoc
@@ -28,8 +28,6 @@ class ScrollToTop extends Widget
 	{
 		ScrollToTopAsset::register($this->view);
 
-		return Html::tag('div', $this->label, array_merge([
-			'class' => 'scroll-to-top btn btn-default hidden hidden-xs'
-		], $this->options));
+		return Html::tag('div', $this->label, $this->options);
 	}
 }
